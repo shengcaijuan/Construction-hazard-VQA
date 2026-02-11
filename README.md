@@ -10,39 +10,6 @@ This framework implements a pluggable visual knowledge enhancement system that t
 - **Knowledge demand variability** - Different questions require different amounts of retrieved knowledge
 - **Information overload** - Too much information causes cognitive bias in model responses
 
-## Framework Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     COHS VQA RAG Framework                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  ┌────────────────┐                                              │
-│  │ VisualAnchor   │ Extract hazard-relevant objects & operations  │
-│  │ Extractor      │ → object_anchors, operation_anchors          │
-│  └────────────────┘                                              │
-│                           ↓                                       │
-│  ┌─────────────────────────────────────────────────────────┐     │
-│  │              TwoStageRetriever                           │     │
-│  │  ┌─────────────────┐    ┌─────────────────────────────┐ │     │
-│  │  │  Temp Vector DB │    │   Agent-based Filtering     │ │     │
-│  │  │  (Unified Cache)│    │   (Secondary Retrieval)     │ │     │
-│  │  └─────────────────┘    └─────────────────────────────┘ │     │
-│  └─────────────────────────────────────────────────────────┘     │
-│                           ↓                                       │
-│  ┌────────────────┐                                              │
-│  │ Knowledge      │ Handle long text with chunking strategy      │
-│  │ Chunker        │ → Processed knowledge chunks                 │
-│  └────────────────┘                                              │
-│                           ↓                                       │
-│  ┌────────────────┐                                              │
-│  │ VQA Framework  │ Generate final answer with MLLM              │
-│  │                │ → Context-aware safety hazard analysis       │
-│  └────────────────┘                                              │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ## Core Modules
 
 ### 1. VisualAnchorExtractor
@@ -54,11 +21,6 @@ This framework implements a pluggable visual knowledge enhancement system that t
 - Identifies 20 types of operational scenarios associated with unsafe behaviors (e.g., Work at height, Welding operation)
 - Uses MLLMs to match visual features with predefined semantic keywords
 - Returns structured anchors as retrieval queries for the knowledge base
-
-**Key Methods**:
-- `extract_anchors(image_path: str) -> Dict[str, List[str]]` - Extract object and operation anchors from an image
-
-**Corresponds to**: Module 2 (Visual Semantic Anchor Extraction) in the paper
 
 ---
 
@@ -77,21 +39,11 @@ This framework implements a pluggable visual knowledge enhancement system that t
 - **Object Guidelines**: 87 rules targeting 15 critical construction objects
 - **Operation Guidelines**: 144 rules covering 20 operational scenarios
 
-**Key Methods**:
-- `retrieve_object_knowledge(query: str) -> str` - Retrieve object-related safety guidelines
-- `retrieve_operation_knowledge(query: str) -> str` - Retrieve operation-related safety guidelines
-- `retrieve_all_knowledge(object_queries, operation_queries) -> Dict` - Retrieve all relevant knowledge
-
-**Corresponds to**: Module 1 (External Knowledge Base) in the paper
-
 ---
 
 ### 3. TempVectorDBBuilder
 
 **Purpose**: Builds and caches unified temporary vector databases for efficient multi-question scenarios.
-
-**Design Principle**:
-According to the paper: *"re-embeds the initially retrieved text chunks into **a** lightweight temporary knowledge base"*
 
 The temporary database combines BOTH object and operation chunks into a **single unified** FAISS database, not separate databases.
 
@@ -101,26 +53,6 @@ The temporary database combines BOTH object and operation chunks into a **single
 - Caches databases by image path for subsequent questions
 - Eliminates redundant retrieval operations for the same image
 - Maintains vector space consistency using the same embedding model
-
-**Key Methods**:
-- `get_or_build(image_path, object_queries, operation_queries) -> FAISS` - Get or build unified temp DB
-- `retrieve_from_temp(query, image_path, top_k) -> List[Document]` - Retrieve from cached temp DB
-- `clear(image_path=None)` - Clear cached databases
-- `has_cache(image_path) -> bool` - Check if cache exists
-
-**Cache Structure**:
-```python
-_cache: Dict[str, Optional[FAISS]]
-# Example:
-{
-    "./images/scaffold1.jpg": unified_temp_db,  # Contains both object + operation chunks
-    "./images/electric1.jpg": unified_temp_db
-}
-```
-
-**Corresponds to**: Module 3 (Temporary Knowledge Base) in the paper
-
----
 
 ### 4. TwoStageRetriever
 
@@ -141,16 +73,9 @@ _cache: Dict[str, Optional[FAISS]]
 
 **Agent Decision Logic**:
 - "What hazards exist?" → Select all retrieved chunks
-- "How many types of PPE are missing?" → Select only PPE-related chunks
+- "How many types of PPE are missing?" → Select only operation-related chunks
 - "What unsafe behaviors?" → Select only operation-related chunks
-
-**Key Methods**:
-- `retrieve(user_question, object_queries, operation_queries, image_path) -> Dict` - Execute two-stage retrieval
-- `first_stage_retrieve(object_queries, operation_queries) -> Dict` - Anchor-based retrieval
-- `second_stage_filter(user_question, first_stage_results) -> List[str]` - Agent-based filtering
-
-**Corresponds to**: Module 3 (Two-Stage Retrieval) in the paper
-
+- 
 ---
 
 ### 5. KnowledgeChunker
@@ -171,8 +96,6 @@ When numerous text chunks are input simultaneously, the model struggles to focus
 - `chunk_knowledge(knowledge_dict: Dict[str, str]) -> List[Dict]` - Split knowledge into chunks
 - `process_with_chunking(question: str, knowledge_chunks, llm_client) -> str` - Process with chunking strategy
 
-**Corresponds to**: Module 4 (Chunked Knowledge Delivery) in the paper
-
 ---
 
 ### 6. COHSVQAFramework
@@ -191,11 +114,6 @@ When numerous text chunks are input simultaneously, the model struggles to focus
 2. Perform two-stage retrieval (with optional temp DB caching)
 3. Apply knowledge chunking for long content
 4. Generate final answer using MLLM
-
-**Configurable Features**:
-- `enable_two_stage_retrieval` - Toggle agent-based filtering
-- `enable_knowledge_chunking` - Toggle chunked knowledge delivery
-- `use_temp_db` - Toggle temporary vector database caching
 
 **Key Methods**:
 - `answer_question(image_path, user_question) -> Dict` - Main VQA interface
@@ -217,35 +135,7 @@ When numerous text chunks are input simultaneously, the model struggles to focus
     }
 }
 ```
-
 ---
-
-## Module Interactions
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                        Module Interaction Flow                      │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  COHSVQAFramework (Main Orchestrator)                                │
-│       │                                                              │
-│       ├── VisualAnchorExtractor → Extract anchors from image         │
-│       │                                                              │
-│       ├── COHSKnowledgeBase ────────┐                               │
-│       │        ↑                     │                               │
-│       │        │                     │                               │
-│       │   TempVectorDBBuilder ◄─────┘ (First-stage retrieval)       │
-│       │        │                     │                               │
-│       │        │ (Cached unified DB) │                               │
-│       │        ↓                     │                               │
-│       ├── TwoStageRetriever ─────────┘ (Second-stage filtering)      │
-│       │                                                              │
-│       ├── KnowledgeChunker ──────────→ Handle long text             │
-│       │                                                              │
-│       └── LLM Answer Generation ──────→ Generate final answer        │
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
-```
 
 ---
 
@@ -266,7 +156,7 @@ The framework implements four key innovations from the paper:
 
 ## Version
 
-**Current Version**: 1.1.0
+**Current Version**: 1.0.0
 
 ---
 

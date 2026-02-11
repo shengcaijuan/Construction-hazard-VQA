@@ -1,0 +1,118 @@
+Safety guidelines for scaffolding：
+1.The foundation of the scaffolding should be hardened, and scaffolding must not be erected on unstable ground.
+2.The vertical rods of the steel pipe scaffolding should be securely placed on metal bases or wooden blocks.
+3.The connections of the scaffolding steel pipes must be tight to avoid looseness.
+4.Scaffolding components must not use steel pipes that are severely corroded, bent, or cracked.
+5.Electrical cables are prohibited to come into direct contact with scaffolding.
+6.A sweeping rod must be installed at the bottom of the scaffolding, and the distance from the baseboard to the ground should not exceed 30 cm.|
+7.The exterior of the external scaffolding must be covered with dense mesh safety nets, ensuring the nets are intact and undamaged.
+8.The scaffolding foundation should have drainage measures to prevent water accumulation at the bottom of the scaffolding.
+9.External scaffolding must be equipped with cross braces.
+10.The cross braces must rest on the ground.
+11.The scaffolding working surface should be fully covered with scaffold boards, and they should be securely fixed to the horizontal bars using reliable connection methods.
+12.Protective railings and toe boards should be installed on the outer edge of the working surface of the scaffolding.
+
+Safety guidelines for electric wire：
+1.Wires must not come into direct contact with scaffolding.
+2.Direct connection of power supply using only wire and socket is prohibited.
+3.Wires must not be tangled and twisted. Wires shouldn't be crossed by machinery.
+4.Overhead power lines must be installed on dedicated utility poles and must not be installed on trees, scaffolding, or other structures.
+5.High-voltage power lines should maintain a safe distance from the construction machinery in operation. It is prohibited for machinery to operate under or near high-voltage power lines.
+6.It is prohibited to lay electric wires in water or on wet ground.
+7.Electric wires are prohibited from being placed directly on steel bars. They should be sleeved inside insulating tubes.
+
+Safety guidelines for Electrical distribution box：
+1.Firefighting equipment must be provided near the distribution box.
+2.The door of the distribution box should be locked under normal conditions.
+3.There should be enough space and passage around the distribution boxes and switch boxes for two people to work simultaneously. No items that hinder operation or maintenance should be stored, and there should be no bushes or weeds.
+4.Electrical distribution boxes must abide by the principle of "one box for one machine". That is to say, one distribution switch box can only supply power to one machine, and the situation of "one box for multiple machines" is prohibited.|
+5.At the inlet and outlet point of the distribution box, the outside of the wires should be covered with protective insulating sleeves to prevent the wires from directly contacting the box body.
+6.The electric wires must be pulled out from the inlet and outlet ports at the bottom of the distribution box. It is prohibited to pull them out directly from the door of the box.
+7.The incoming and outgoing wire entry points in distribution boxes and switch boxes should be located at the bottom of the box instead of the left or right side of the box.
+8.A safety warning sign must be affixed to the outer wall distribution box door.|
+9.Electrical distribution boxes should have labels indicating their name, purpose, circuit markings, and system wiring diagrams on the inner wall of the box door.
+10.No items(especially flammable material) should be placed inside distribution boxes, and the box should be kept clean and tidy.
+11.An outdoor distribution box must have a safety canopy installed on the outside, along with a safety warning sign.
+12.The electrical equipment inside distribution boxes and switch boxes must be reliable and in good condition. The use of damaged or substandard electrical equipment is strictly prohibited.
+
+Safety guidelines for edge:
+1.The edges at the construction site include floor edges, roof edges, balcony edges, window sill edges, staircase edges, lift stop platform edges, operation platform edges and others.
+2.At any edge of the construction site, guardrails must be installed. 
+3.There should be a safety warning sign near the edge.
+4.When external scaffolding is installed around a building, guardrails are not required for floor edges. However, the external scaffolding should be fully enclosed with dense mesh safety nets.
+
+Safety guidelines for Horizontal opening:
+1.Safety warning signs should be set up near the openings.
+2.For openings with sides length smaller than 150 cm, the opening should be closed with a cover plate, which should be a hardwood plank or a steel plate that meets the load - bearing requirements.
+3.For openings with a side length greater than 150 cm, guardrails should be installed around the perimeter.
+4.For openings with a side length greater than 150 cm, a fall arrest safety flat net should be placed below the opening for protection. 
+5.Whether using cover plates or installing guardrails, fixed measures must be taken to prevent displacement of the cover plates or guardrails.
+
+Safety guidelines for Vertical opening:
+1.Safety warning signs should be set up inside the building at the vertical openings.
+2.Large vertical openings should have guardrails installed on the open side.
+3.The elevator shaft opening should have a protective door, with the bottom of the door not placed too high above the ground. Toe boards and safety warning signs should also be installed.
+
+Safety guidelines for Guardrail：
+1.No one is allowed to lean on edge guardrails to prevent falling from heights.
+2.Guardrails should be standard, guardrails consist of horizontal bars and vertical posts.
+3.Guardrails should be equipped with toe boards.
+4.Edge guardrails should be enclosed with a dense safety net or tool-type barrier panels.
+5.The guardrails should be kept complete and undamaged.
+6.The bottom ends of the protective railing uprights should be fixed firmly: When fixed on soil, the uprights should be driven into the soil. When fixed on concrete, the uprights should be firmly connected to the embedded parts.
+
+Safety guidelines for Gas cylinder：
+1.Shockproof rings must be installed on the body of gas cylinders, and the quantity should not be less than two.
+2.Gas cylinders should be placed upright and it is prohibited to lay them flat on the ground.
+3.Fixing measures are needed when gas cylinders are stored and placed to prevent them from toppling over.
+4.Safety signs such as "No Fireworks" should be set up near gas cylinders.|
+5.Stored gas cylinders must have visible labels indicating their usage status (Full, In Use, Empty).
+6.Gas cylinders must have clearly visible exterior colors: Acetylene cylinders are white, and acetylene hoses are red. Oxygen cylinders are light blue, and oxygen hoses are blue. Carbon dioxide cylinders are aluminum white, and propane cylinders are brown.
+7.Gas cylinders must not have serious defects such as corrosion, deformation, wear, cracks, or other damage on their exterior.
+8.There shouldn't be any clutter or flammable materials placed around gas cylinders. Oxygen cylinders should be stored separately from other gas cylinders, oils, grease, and other flammable or explosive materials.
+9.When manually handling gas cylinders, the operator must wear gloves, and the cylinders must be moved in an upright position. It is prohibited to kick or roll the gas cylinders.
+10.When lifting gas cylinders, specialized lifting baskets or racks should be used. It is prohibited to use steel ropes, chains, or other methods to tie and lift gas cylinders.|
+11.When transporting gas cylinders by vehicle, dedicated trolleys should be used to transport them. Gas cylinders should be kept in an upright position during transportation. The use of forklifts or other machinery to transport gas cylinders is prohibited.
+12.During oxy-acetylene welding and cutting operations, the distance between the acetylene cylinder and the oxygen cylinder must not be too close and must be greater than 5 meters.
+13.The distance between the gas cylinders and open flames must not be too close and must be greater than 10 meters.
+14.When storing gas cylinders outdoors, shading and rain protection measures should be implemented to prevent exposure to rain, snow, and direct sunlight.
+15.Fire extinguishing equipment should be set up near the gas cylinder storage area.
+
+Safety guidelines for Mechanical transmission part：
+1.Mechanical transmission parts should be equipped with protective covers to prevent direct exposure.
+
+Safety guidelines for Hanging basket suspension mechanism：
+1.The counterweights of the suspended platform hoisting mechanism should be stably and securely placed on the counterweight frame, with measures in place to prevent movement.
+2.The front support of the hoisting mechanism must not be supported on the parapet wall, the exterior of the parapet wall, or the edge of the building's cornice.
+3.Safety ropes are prohibited from being tied to the hanging basket suspension mechanism.
+
+Safety guidelines for Hanging basket:
+1.When not in use, the hanging basket should be lowered to the ground and must not remain suspended in mid-air.
+
+Safety guidelines for foundation pit（Trench）:
+1.Protective railings must be installed around the foundation pit(Trench) with a depth exceeding 2 meters. The protective railings should consist of horizontal bars and vertical bars, and it is advisable to hang dense-mesh safety nets and toe boards.There should be safety warning signs on the protective railings.
+2.It is prohibited to use only warning lines as the guardrails for the edge of the foundation pit(Trench).
+3.A dedicated ladderway for construction personnel to go up and down should be set up inside the foundation pit(Trench), and the ladderway should be equipped with handrails. 
+4.It is advisable to set up drainage ditches and sump wells around the bottom of the foundation pit to drain accumulated water.
+5.The distance for stacking materials near the foundation pit(Trench) should be at least one meter in order to prevent the occurrence of landslide problems in the foundation pit.
+
+Safety guidelines for Electric welding machine:
+1.The electric welding machine's casing must be properly grounded.
+2.The electric welding machine's power wires must be in good condition. Damaged wires or spliced wires are strictly prohibited.
+3.The electric welding machine should not be placed on metallic objects, such as steel bars, etc.
+
+Safety guidelines for Fall arrest safety flat net:
+1.A fall arrest safety flat net should be installed beneath the working surface or reserved openings. It must be ensured that the installation is firm to prevent the safety nets from falling off.
+
+Safety guidelines for Operation platform:
+1.Guardrails should be set up around the working surface of the operation platform.
+2.The support structure and the working surface of the platform should be stable and made of high-strength, durable materials.
+3.The working surface space of the self-built operation platform should be large enough to accommodate the operators, materials and tools.
+4.It is prohibited to place objects under the legs of the movable operation platform to raise it.
+
+Safety guidelines for Crane:
+1.When the ground beneath the outriggers of the truck crane isn't flat and firm, hardwood base plates should be placed under the outriggers of the crane.
+2.The hardwood base plates under the outriggers of the crane should be with qualified strength and without damage.
+3.The area of the base plates should be three times that of the bottom of the outriggers.
+4.It is prohibited to use the crane sling to lift objects in an oblique manner.
+5.There should be drainage measures at the tower crane foundation to avoid waterlogging.

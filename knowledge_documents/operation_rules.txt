@@ -1,0 +1,184 @@
+Safety guidelines for Carrying materials：
+1.Workers should wear shoulder pads and gloves when carrying materials on the shoulder.
+2.Workers should wear protective toe safety shoes and gloves when manually handling materials.
+
+Safety guidelines for Chiseling or chipping operation：
+1.Workers should wear dust masks.
+2.Workers should wear insulated gloves.
+3.Workers should wear noise-reducing earmuffs.
+4.Workers should wear protective goggles.
+5.Workers working at heights should wear safety harnesses.
+
+Safety guidelines for Climbing operation:
+1.Climbing personnel should wear non-slip rubber shoes.
+2.Climbing personnel should wear non-slip gloves.
+3.Workers climbing ladders with a height over 2 meters should wear safety harnesses.
+4.Tower crane erectors should be equipped with safety harnesses and use them correctly when climbing the tower crane.|
+5.A dedicated person is required to provide support and supervision when using a ladder for climbing work and the working height exceeds two metres. It is strictly prohibited to work without supervision and for the supervisor to leave the post without permission.
+6.It's prohibited for two or more people to climb and work on one ladder simultaneously.
+7.It's prohibited to climb the scaffolding.
+
+Safety guidelines for Concrete pouring：
+1.Workers should wear dust masks
+2.Workers should wear protective gloves
+3.Workers should wear non-slip rubber shoes.
+4.Workers should wear safety goggles.
+5.Workers should wear noise-reducing ear muffs.
+6.Workers should wear safety harnesses and use them correctly when working on an operating platform with a height exceeding two meters.|
+7.Workers must use an operating platform when pouring concrete for components higher than two meters. Standing on formwork or support structures while operating is strictly prohibited.
+8.When using concrete pump pipes for pouring, a towing rope must be used to adjust the pump pipe. It is forbidden to adjust the concrete pump pipe by hand.
+
+Safety guidelines for Concrete vibration：
+1.Workers should wear insulated gloves.
+2.Workers should wear insulated rubber boots.
+3.Workers should wear dust masks.
+4.Workers should wear protective goggles.
+5.Workers should wear noise-reducing earmuffs or earplugs.
+
+Safety guidelines for Gas cutting operation:
+1.Workers should wear flame-resistant protective clothing.
+2.Workers should wear dust masks.
+3.Workers should wear welding gloves.
+4.Workers should wear protective face shields.
+5.When cutting at heights, workers should be equipped with flame-retardant safety harnesses and head-mounted protective face shields instead of hand-held protective face shields.|
+6.Flammable and explosive items, such as paint and cardboard boxes, are prohibited within the scope of gas cutting operations.
+7.Fire extinguishers should be provided for gas cutting operations.
+8.For operations with intense cutting sparks, fire pans should be used to collect the sparks.
+9.When welding at the indoor site with poor ventilation, a local exhaust ventilation system should be provided near the welding position to capture and remove the fumes and dust generated during cutting.
+
+Safety guidelines for Mechanical cutting operation:
+1.Workers should wear protective goggles or protective face shields. 
+2.Workers should wear protective gloves.
+3.Workers should wear safety protective shoes. 
+4.Workers should wear dust masks. 
+5.Workers should wear noise-reducing earmuffs or earplugs.|
+6.Flammable and explosive items, such as paint and cardboard boxes, are prohibited within the scope of mechanical cutting operations.
+7.Fire extinguishers should be provided for mechanical cutting operations.
+8.For operation with intense cutting sparks, one fire pan should be used to collect the sparks.
+
+Safety guidelines for Manual earth excavation：
+1.Workers engaged in manual earth-digging operations should wear dust masks.
+2.Workers engaged in manual earth-digging operations should wear protective gloves.|
+3.People are prohibited from resting inside the foundation pit.
+4.When multiple workers are manually excavating earth, the operating distance between two workers should be at least 2 meters.
+
+Safety guidelines for Mechanical earth excavation
+1.Workers should maintain a safe distance from the excavator and are prohibited from staying under the bucket.|
+2.A safe distance must be maintained between an excavator and overhead power lines during earth excavation.
+3.During earth excavation work with a backhoe excavator, the distance from the excavator's tracks to the edge of the working surface should be greater than 1 meter to maintain a safe distance.
+4.During the operation or movement of an excavator, the bucket should not be used for lifting materials.
+5.When excavating the earthwork of the trench, the excavator is prohibited from riding ditch for digging.
+
+Safety guidelines for Foundation compaction：
+1.Workers should wear safety shoes.
+2.Workers should wear insulated gloves.
+3.Workers should wear noise-reducing earmuffs or earplugs.
+4.Workers should wear dust masks.|
+5.The foundation compaction operation must follow the "one operator, one person pulling the line" approach.
+
+Safety guidelines for Hanging Basket Operation：
+1.Workers should wear safety harnesses.
+2.Workers should wear non-slip rubber shoes.
+3.Workers' safety harnesses should be securely attached to a safety rope, not directly to the platform's railing, steel ropes, or any other unstable objects.|
+4.Workers should enter and exit the platform from the ground. It is prohibited to enter or exit the platform from the air.
+5.Workers are prohibited from extending most of their body outside the platform.
+6.No more than two workers are allowed in the hanging basket at the same time.
+7.Workers are prohibited from using ladders inside the platform or throwing objects from height.
+
+Safety guidelines for lifting operation:
+1.No one is allowed to stand on or accompany the lifted load during its ascent or descent.
+2.Crane is prohibited from being used as lifting machine to transport workers.
+3.It is strictly prohibited for anyone to stay, stand, pass or work under the suspended heavy object during the lifting operation.
+4.Workers are prohibited from adjusting the load with their hands directly during the lifting operation. The load should be adjusted using a towing rope.
+5.When lifting loose materials such as scaffolding pipes or steel bars, a lifting cage should be used. The method of bundling and lifting is prohibited for loose materials.|
+6.When lifting long-shaped components, at least two lifting points should be used, and the sling must firmly bind the lifted object to prevent it from slipping.
+7.A safety zone enclosed by warning lines or guardrails and warning signs must be set up during lifting operation.
+8.It is prohibited to lift multiple loads with a single hook.
+9.It is prohibited to use the crane sling to lift objects in an oblique or tilted manner.
+10.Crane should maintain a safe distance from overhead power lines.
+
+Safety guidelines for Masonry operation：
+1.Workers should wear safety shoes.
+2.Workers should wear protective gloves.
+3.Workers should wear dust masks.
+4.When performing masonry work on an operating platform with a height of over 2 meters, workers must wear safety harnesses correctly and avoid the practice of "wearing the safety harness but not using it."|
+5.When working at a height of more than two meters, an operation platform should be used.
+6.When using an operating platform for masonry work, it is prohibited to use unstable objects to elevate the working surface.
+7.The height of the brick pile on the operation platform should not exceed the height of three layers of bricks. That is, the maximum number of layers of the brick pile is three.
+
+Safety guidelines for Painting operation：
+1.Workers should wear anti-static work clothes.
+2.Workers should wear anti-static shoes.
+3.Workers should wear anti-static gloves.
+4.Workers should wear gas masks.
+5.Workers should wear protective goggles.
+6.Painting workers should properly use safety harnesses when working on an operating platform over 2 meters.|
+7.When working at a height of more than two meters, an operation platform should be used.
+
+Safety guidelines for Plastering operation：
+1.Workers should wear protective gloves.
+2.Workers should wear dust masks.
+3.Workers should wear protective goggles.
+4.Workers should properly use safety harnesses when working on an operating platform with a height over 2 meters.|
+5.When working at a height of more than two meters, an operation platform should be used.
+
+Safety guidelines for Rebar tying：
+1.Workers should wear protective gloves.
+2.Workers tying rebar on an operation platform over two meters should wear safety harnesses.|
+3.Workers are prohibited from standing on rebar framework to tie the steel bars. 
+4.Workers are prohibited from climbing up and down on stirrups.
+5.When tying rebar for vertical components over two meters high, an operating platform must be erected or used. 
+
+Safety guidelines for Waterproofing operation：
+1.Waterproofing workers should wear gas masks.
+2.Waterproofing workers should wear protective goggles.
+3.Asphalt waterproofing workers should wear heat-resistant work clothing.
+4.Coating waterproofing workers should wear anti-static work clothing|
+5.Asphalt waterproofing workers should wear high-waisted fabric-coated non-slip rubber shoes.
+6.Coating waterproofing workers should wear anti-static shoes.
+7.Asphalt waterproofing workers should wear high-temperature resistant gloves
+8.Coating waterproofing workers should wear protective gloves.
+
+Safety guidelines for Welding Operation:
+1.Welders should wear flame-resistant protective clothing.
+2.Welders should wear insulated shoes.
+3.Welders should wear dust masks.
+4.Welders should wear welding gloves.
+5.Welders should wear protective face shields.
+6.When welding at heights, workers should be equipped with flame-retardant safety harnesses and head-mounted protective face shields instead of hand-held protective face shields. The safety harnesses must be fastened to stable and closed anchor points. 
+7.When welding vertical rebar components above two meters, workers on the operation platform should wear safety harnesses.|
+8.Flammable and explosive materials must not be placed around the welding area, such as gas cylinder, cardboard, paint, etc.
+9.Fire extinguishing equipment should be provided near the welding area.
+10.For operations with intense welding sparks, fire pans should be used to collect the sparks.
+11.When welding at the indoor site with poor ventilation, a local exhaust ventilation system should be provided near the welding position to capture and remove the fumes and dust generated during welding.|
+12.When welding rebar components, workers are prohibited from standing on the rebar framework to perform welding. 
+13.When welding vertical rebar components above two meters, an operating platform must be set up or used. 
+
+Safety guidelines for Work at heights：
+1.Workers working at heights should wear safety harnesses.
+2.Workers should wear non-slip rubber shoes.|
+3.The safety harnesses must be fastened to stable and closed anchor points. 
+4.Workers working at height should use safety harnesses correctly. It is prohibited to have situations like "fastening the harness at a lower position while working at a higher position" and "wearing the harness but not using it".
+
+Safety guidelines for Work on scaffolding：
+1.Scaffolders should wear non-slip shoes when installing or dismantling scaffolds.
+2.Scaffolders should wear non-slip gloves when installing or dismantling scaffolds.
+3.Scaffolders should wear flexible and close-fitting work clothes.
+4.Workers working on scaffolds must wear safety harnesses.|
+5.Workers working on scaffolds must use safety harnesses correctly. The safety harnesses must be fastened to stable and closed anchor points.
+6.Workers working on scaffolds must use safety harnesses correctly. It is prohibited to have situations like "fastening the harness at a lower position while working at a higher position" and "wearing the harness but not using it".
+7.Workers on the scaffold are prohibited from leaning against the protective railings on the working surface of the scaffolding.
+
+Safety guidelines for Formwork Operation：
+1.During formwork installation or dismantling, workers must wear protective gloves.
+2.During formwork installation or dismantling, workers must wear safety non-slip shoes.
+3.When performing formwork operation at a height exceeding 2 meters, workers should wear safety harnesses.|
+4.When installing or dismantling formwork at a height exceeding 2 meters, an operation platform must be provided or used. 
+5.Workers must wear safety harnesses correctly while working at a height exceeding 2 meters.It is prohibited to have situations like "fastening the belt at a lower position while working at a higher position" and "wearing the belt but not using it".
+6.During formwork installation, workers must not stand directly on the supports. 
+7.During formwork removal at heights, throwing of formwork is strictly prohibited.
+
+Safety guidelines for Operation near the edge：
+1.Anyone is prohibited from resting or lingering for a long time at the edge without guardrails.
+2.No one is allowed to lean on the edge guardrails.
+3.When working at the edge without guardrails, workers should wear safety harnesses.

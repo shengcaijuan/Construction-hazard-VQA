@@ -1,4 +1,4 @@
-# COHS VQA RAG Framework
+# Construction OHS Hazard VQA RAG Framework
 
 A Retrieval-Augmented Generation (RAG) framework for Construction Occupational Health and Safety (COHS) Visual Question Answering, based on Multimodal Large Language Models (MLLMs).
 
